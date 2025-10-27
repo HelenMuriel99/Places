@@ -20,8 +20,8 @@ class Review extends StatelessWidget {
         top: 10,
         right: 10
       ),
-      width: 80,
-      height: 80,
+      width: 60,
+      height: 60,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         image: DecorationImage(
@@ -39,7 +39,7 @@ class Review extends StatelessWidget {
         textoNombreUsuario,
         style: TextStyle(
           fontFamily: "Lato",
-          fontSize: 22
+          fontSize: 18
         ),
       ),
     );
